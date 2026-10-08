@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "homepage": "https://github.com/Ehicodes/Forkify#readme",
+  "bugs": {
+    "url": "https://github.com/Ehicodes/Forkify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehicodes/Forkify.git"
+  },
+  "license": "ISC",
+  "author": "Jonas Schedtmann / Ehi",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "overrides": {
+    "@swc/core": "1.7.26"
+  }
+}
