@@ -23,5 +23,8 @@
   },
   "overrides": {
     "@swc/core": "1.7.26"
+  },
+  "dependencies": {
+    "fraction.js": "^5.3.4"
   }
 }
