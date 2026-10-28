@@ -1,4 +1,4 @@
-import { API_URL, RES_PER_PAGE } from "./config.js";
+import { API_URL, RES_PER_PAGE } from "./config.js"
 import { getJSON } from "./helpers.js"
 
 
@@ -64,5 +64,6 @@ export const getSearchResultsPage = function(page = state.search.page) {
 
     const start = (page - 1) * state.search.resultsPerPage // 0 on page 1
     const end = page * state.search.resultsPerPage // 10 on page 9
+
     return state.search.results.slice(start, end)
 }
